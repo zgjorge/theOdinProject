@@ -2,7 +2,7 @@ $(document).ready(function(){
    
     $('#start1').on('click', function(){
     $('#grid_container').html("");
-   var input = prompt('how many ?');
+   var input = prompt('How many Squares would you like?');
    var square_size = $('#grid_container').width()/input-2;
         
     for(var x=0; x<input; x++){

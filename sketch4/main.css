@@ -1,0 +1,21 @@
+.theButton{
+    margin: auto;
+	width: 960px;
+    text-align: center;
+}
+
+#grid_container {
+	width: 450px;
+	margin: 20px auto;
+}
+
+.grid_square {
+	background-color: #3b5998;
+    float:right;
+	border: 1px solid white;
+    border-radius:8px;
+}
+
+.highlight{
+    background-color: #8b9dc3;
+}

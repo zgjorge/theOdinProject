@@ -1,0 +1,108 @@
+/* android css*/
+div{
+    margin:0;
+    padding;0;
+}
+
+
+div div {
+    background:#A4CA39;
+    position:relative;
+}
+
+
+.android{
+    height:404px;
+    width:334px;
+    margin:100px auto;
+}
+
+.head{
+    height:100px;
+    width:220px;
+    top:50px;
+    border-radius: 110px 110px 0 0;
+}
+
+.l_eye, .r_eye{
+    background:white;
+    width:20px;
+    height:20px;
+    top:42px;
+    border-radius: 50px;
+    position:absolute;
+}
+
+.l_eye{
+    left:50px;
+}
+.r_eye{
+    right:50px;
+}
+
+.l_antenna, .r_antenna{
+    width:5px;
+    height: 40px;
+    top:-30px;
+    position:absolute;
+}
+
+.l_antenna{
+    left:50px;
+    transform:rotate(-30deg);
+}
+.r_antenna{
+    right:50px;
+    transform:rotate(30deg);
+}
+
+.body{
+    width:220px;
+    height:200px;
+    position:absolute;
+    top:312px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.l_arm, .r_arm{
+    width:50px;
+    height:120px;
+    position:absolute;
+    border-radius:50px;
+}
+.l_arm{
+    left:-55px;
+}
+
+.r_arm{
+    right:-55px;
+}
+
+.r_leg, .l_leg{
+    width:50px;
+    height:120px;
+    position:absolute;
+    border-radius:50px;
+}
+
+.r_leg{
+    right:130px;
+    top:145px;
+}
+
+.l_leg{
+    left:130px;
+    top:145px;
+}
+
+.head:hover{
+    transform:rotate(-5deg) translate(-3px, -11px);
+}
+
+.r_arm:hover{
+    transform:rotate(-25deg) translate(15px, 1px);
+}
+
+.l_arm:hover{
+    transform:rotate(25deg) translate(-15px, 4px);
+}
